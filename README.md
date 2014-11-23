@@ -44,21 +44,22 @@ Step 1: Merges the training and the test sets to create one data set.
 	  one data set called 'train_test_data'
 
 Step 2: Extracts only the measurements on the mean and standard deviation for each measurement
-	- Extract the meaurment variables from feature_data second column, remove'()', and hold the 
-	  ⋅⋅⋅values in the 'measurment_column_names'.
-	- Name the first two columns as "subject' and 'activity' and attach them to the 
-	  ⋅⋅⋅'measurment_column_names' to form the entire 'column_names' for the 'train_test_data data set'.
+	- Extract the meaurment variables from feature_data second column, remove'()', and hold the values in the 'measurment_column_names'.
+	
+	- Name the first two columns as "subject' and 'activity' and attach them to the 'measurment_column_names' to form the entire 'column_names' for the 'train_test_data data set'.
+
+
 	- Assign the column_names to the train_test_data.
-	- The measurements on the mean and standard deviation are variable names that have the words 
-	  ⋅⋅⋅'mean' and 'std' followed by (). But the () has been replaced by <<parenthesis>> and now they 
-          ⋅⋅⋅are on the form of mean<<parenthesis>> and std<<parenthesis>>. Select the columns with name 
-          ⋅⋅⋅that has one of these forms along with 'subject' and activity' columns using the grep function 
-          ⋅⋅⋅in R regular expression.
+
+	- The measurements on the mean and standard deviation are variable names that have the words 'mean' and 'std' followed by (). But the () has been replaced by \<<parenthesis\>> and now they are on the form of mean\<<parenthesis\>> and std\<<parenthesis\>>. Select the columns with name that has one of these forms along with 'subject' and activity' columns using the grep function in R regular expression.
+	
+
 	- Assign the new data set selected using grep to a new data set called 'train_test_data_mean_std'
 
 Step 3: Uses descriptive activity names to name the activities in the data set.
 	- The activity names are given in the activity_labels.txt file. Map these names to the corresponding labels
 	  which are in the activity clolumn in the 'train_test_data_mean_std' data set.
+
 
 Step 4: Appropriately labels the data set with descriptive variable names.
   - Copy the column names of the 'train_test_data_mean_std' to 'column_names_mean_std'
