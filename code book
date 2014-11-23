@@ -5,8 +5,9 @@ Data Dictonary:  Tidy data set with the average of each variable for each activi
 Variables: 
  Column 1. subject: Each row identifies the subject who performed the activity for each window sample labeled with id from 1 to 30.
  Column 2. activity: Each row identifies one of the following activities: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.
- Column 3 to 81 : Measured Variables. Each row identifies the average value of one subject per one activity for the measured variable (column name)
+ Column 3 to 81 : Average of the measured variables. Each row identifies the average value of one subject per one activity for the measured variable (column name)
 
+For example for subject id 1 with full activity and timeBodyAcceleration-mean-X variable looks as follows:
 subject    activity              timeBodyAcceleration-mean-X  ...
 1          STANDING              0.2789176291                 ...
 1          SITTING               0.2612375654                 ...
@@ -19,7 +20,7 @@ subject    activity              timeBodyAcceleration-mean-X  ...
 .          .                     .                             .
 
 
-Full list of descriptive variable names for the tidy data set:
+Full list of the descriptive variable names for the tidy data set:
  1. subject 
  2. activity 
  3. timeBodyAcceleration-mean-X 
