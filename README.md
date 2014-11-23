@@ -32,14 +32,22 @@ Files loaded and used by run_analysis R script to create the tidy data:
 
 How run_analysis R script processes the above files and create the rquried tidy data sets:
 
+
 Step 1: Merges the training and the test sets to create one data set.
+
 	- Import the features.txt file as feature_data
+	- 
 	- Import the training files.
+	- 
 	- Import the test files.
+	- 
 	- Combine the imported training files as 'subject_activity_train_data' data.frame.
+	- 
 	- Combine the imported test files as 'subject_activity_test_data' data.frame.
+	
 	- Merge the training (subject_activity_train_data) data set and test (subject_activity_test_data) data set as 
 	  one data set called 'train_test_data'
+
 
 Step 2: Extracts only the measurements on the mean and standard deviation for each measurement
 	- Extract the meaurment variables from feature_data second column, remove'()', and hold the values in the 
