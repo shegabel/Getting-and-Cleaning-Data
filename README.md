@@ -1,5 +1,5 @@
 
-README.txt
+README
 ====================================================
 
 In this project the training and test files with participating subjects and activiy files collected from the accelerometers 
