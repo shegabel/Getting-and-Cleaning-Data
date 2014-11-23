@@ -36,15 +36,10 @@ How run_analysis R script processes the above files and create the rquried tidy 
 Step 1: Merges the training and the test sets to create one data set.
 
 	- Import the features.txt file as feature_data
-	- 
 	- Import the training files.
-	- 
 	- Import the test files.
-	- 
 	- Combine the imported training files as 'subject_activity_train_data' data.frame.
-	- 
 	- Combine the imported test files as 'subject_activity_test_data' data.frame.
-	
 	- Merge the training (subject_activity_train_data) data set and test (subject_activity_test_data) data set as 
 	  one data set called 'train_test_data'
 
