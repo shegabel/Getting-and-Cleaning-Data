@@ -47,7 +47,7 @@ Step 2: Extracts only the measurements on the mean and standard deviation for ea
 
 	- Extract the meaurment variables from feature_data second column, remove'()', and hold the values in the 'measurment_column_names'.
 
-- Name the first two columns as "subject' and 'activity' and attach them to the 'measurment_column_names' to form the entire 'column_names' for the 'train_test_data data set'.
+	- Name the first two columns as "subject' and 'activity' and attach them to the 'measurment_column_names' to form the entire 'column_names' for the 'train_test_data data set'.
 
 	- Assign the column_names to the train_test_data.
 
