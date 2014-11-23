@@ -43,7 +43,6 @@ Step 1: Merges the training and the test sets to create one data set.
 	- Merge the training (subject_activity_train_data) data set and test (subject_activity_test_data) data set as 
 	  one data set called 'train_test_data'
 
-
 Step 2: Extracts only the measurements on the mean and standard deviation for each measurement
 	- Extract the meaurment variables from feature_data second column, remove'()', and hold the 
 	  values in the 'measurment_column_names'.
