@@ -56,8 +56,8 @@ Step 2: Extracts only the measurements on the mean and standard deviation for ea
 
 
 Step 3: Uses descriptive activity names to name the activities in the data set.
-	- The activity names are given in the activity_labels.txt file. Map these names to the corresponding labels
-	  which are in the activity clolumn in the 'train_test_data_mean_std' data set.
+
+	- The activity names are given in the activity_labels.txt file. Map these names to the corresponding labels which are in the activity clolumn in the 'train_test_data_mean_std' data set.
 
 
 Step 4: Appropriately labels the data set with descriptive variable names.
