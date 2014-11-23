@@ -75,13 +75,19 @@ Step 4: Appropriately labels the data set with descriptive variable names.
 
 
 Step 5: From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject.
+
 	- For this step "data.table" library package of R is used for easier calulation of the average (mean).
+
 	- Convert the 'tidy_train_test_data_mean_std' data set which is a data.frame to data.table format and rename it 
 	  as 'tidy_train_test_data_average'.
+
 	- .SD (Subset of Data) by default holds all the columns of the data.table i.e. tidy_train_test_data_average except 
 	  the ones specified in "by" and only accessible in columns. 
-	- Loop through the columns of .SD using lapply to calclaute the mean (average) of each variable 
-	  in 'tidy_train_test_data_average'.
+
+	- Loop through the columns of .SD using lapply to calclaute the mean (average) of each variable in 'tidy_train_test_data_average'.
+
 	- Reorder the tidy_train_test_data_average data set by 'subject' column.
-  - Write the tidy_train_test_data_average data set to a text file called 'tidy_train_test_data_average.txt'.
-  - Submit/Upload the 'tidy_train_test_data_average.txt' file at course project site.
+
+	- Write the tidy_train_test_data_average data set to a text file called 'tidy_train_test_data_average.txt'.
+
+	- Submit/Upload the 'tidy_train_test_data_average.txt' file at course project site.
