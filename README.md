@@ -8,8 +8,8 @@ from the Samsung Galaxy S smartphone are given. Write a run_analysis R script th
 This project has 4 files:
 
 1. ReadMe markdown document (this file),  at Github repo
-2. Codebook markdown document,  at Github repo
-3. run_analysis R script, at Github repo
+2. Codebook markdown document,  at Github repo : https://github.com/shegabel/Getting-and-Cleaning-Data/blob/master/code-book
+3. run_analysis R script, at Github repo : https://github.com/shegabel/Getting-and-Cleaning-Data/blob/master/run_analysis.R
 4. tidy data text file called 'tidy_train_test_data_average.txt' uploaded at Course project site. 
 
 
