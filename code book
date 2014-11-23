@@ -1,0 +1,102 @@
+Data Dictonary:  Tidy data set with the average of each variable for each activity and each subject.
+
+ Data file name: tidy_train_test_data_average.txt
+
+Variables: 
+ Column 1. subject: Each row identifies the subject who performed the activity for each window sample labeled with id from 1 to 30.
+ Column 2. activity: Each row identifies one of the following activities: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.
+ Columnn 3 to 81 : Measured Variables. Each row identifies the average value of one subject per one activity for the measured variable (column name)
+
+subject		activity	     timeBodyAcceleration-mean-X	    timeBodyAcceleration-mean-Y ...
+1			STANDING	         0.2789176291	                    -0.0161375901  ...
+1			SITTING	   			 0.2612375654						-0.0013082877  ...
+1			LAYING	             0.2215982439	                    -0.0405139534  ...
+1			WALKING				 0.2773307587	                    -0.0173838185  ...
+1			WALKING_DOWNSTAIRS	 0.2891883204						-0.0099185046  ...
+1			WALKING_UPSTAIRS	 0.2554616896						-0.0239531493  ...
+.   			.                       .                                   .
+.    			.                       .                                   .
+.    			.                       .                                   .
+
+Full list of Variables for the tidy data set:
+ 1. subject 
+ 2. activity 
+ 3. timeBodyAcceleration-mean-X 
+ 4. timeBodyAcceleration-mean-Y 
+ 5. timeBodyAcceleration-mean-Z 
+ 6. timeBodyAcceleration-std-X 
+ 7. timeBodyAcceleration-std-Y 
+ 8. timeBodyAcceleration-std-Z 
+ 9. timeGravityAcceleration-mean-X 
+ 10. timeGravityAcceleration-mean-Y 
+ 11. timeGravityAcceleration-mean-Z 
+ 12. timeGravityAcceleration-std-X 
+ 13. timeGravityAcceleration-std-Y 
+ 14. timeGravityAcceleration-std-Z 
+ 15. timeBodyAccelerationJerk-mean-X 
+ 16. timeBodyAccelerationJerk-mean-Y 
+ 17. timeBodyAccelerationJerk-mean-Z 
+ 18. timeBodyAccelerationJerk-std-X 
+ 19. timeBodyAccelerationJerk-std-Y 
+ 20. timeBodyAccelerationJerk-std-Z 
+ 21. timeBodyGyro-mean-X 
+ 22. timeBodyGyro-mean-Y 
+ 23. timeBodyGyro-mean-Z 
+ 24. timeBodyGyro-std-X 
+ 25. timeBodyGyro-std-Y 
+ 26. timeBodyGyro-std-Z 
+ 27. timeBodyGyroJerk-mean-X 
+ 28. timeBodyGyroJerk-mean-Y 
+ 29. timeBodyGyroJerk-mean-Z 
+ 30. timeBodyGyroJerk-std-X 
+ 31. timeBodyGyroJerk-std-Y 
+ 32. timeBodyGyroJerk-std-Z 
+ 33. timeBodyAccelerationMag-mean 
+ 34. timeBodyAccelerationMag-std 
+ 35. timeGravityAccelerationMag-mean 
+ 36. timeGravityAccelerationMag-std 
+ 37. timeBodyAccelerationJerkMag-mean 
+ 38. timeBodyAccelerationJerkMag-std 
+ 39. timeBodyGyroMag-mean 
+ 40. timeBodyGyroMag-std 
+ 41. timeBodyGyroJerkMag-mean 
+ 42. timeBodyGyroJerkMag-std 
+ 43. frequencyBodyAcceleration-mean-X 
+ 44. frequencyBodyAcceleration-mean-Y 
+ 45. frequencyBodyAcceleration-mean-Z 
+ 46. frequencyBodyAcceleration-std-X 
+ 47. frequencyBodyAcceleration-std-Y 
+ 48. frequencyBodyAcceleration-std-Z 
+ 49. frequencyBodyAcceleration-meanFreq-X 
+ 50. frequencyBodyAcceleration-meanFreq-Y 
+ 51. frequencyBodyAcceleration-meanFreq-Z 
+ 52. frequencyBodyAccelerationJerk-mean-X 
+ 53. frequencyBodyAccelerationJerk-mean-Y 
+ 54. frequencyBodyAccelerationJerk-mean-Z 
+ 55. frequencyBodyAccelerationJerk-std-X 
+ 56. frequencyBodyAccelerationJerk-std-Y 
+ 57. frequencyBodyAccelerationJerk-std-Z 
+ 58. frequencyBodyAccelerationJerk-meanFreq-X 
+ 59. frequencyBodyAccelerationJerk-meanFreq-Y 
+ 60. frequencyBodyAccelerationJerk-meanFreq-Z 
+ 61. frequencyBodyGyro-mean-X 
+ 62. frequencyBodyGyro-mean-Y 
+ 63. frequencyBodyGyro-mean-Z 
+ 64. frequencyBodyGyro-std-X 
+ 65. frequencyBodyGyro-std-Y 
+ 66. frequencyBodyGyro-std-Z 
+ 67. frequencyBodyGyro-meanFreq-X 
+ 68. frequencyBodyGyro-meanFreq-Y 
+ 69. frequencyBodyGyro-meanFreq-Z 
+ 70. frequencyBodyAccelerationMag-mean 
+ 71. frequencyBodyAccelerationMag-std 
+ 72. frequencyBodyAccelerationMag-meanFreq 
+ 73. frequencyBodyBodyAccelerationJerkMag-mean 
+ 74. frequencyBodyBodyAccelerationJerkMag-std 
+ 75. frequencyBodyBodyAccelerationJerkMag-meanFreq 
+ 76. frequencyBodyBodyGyroMag-mean 
+ 77. frequencyBodyBodyGyroMag-std 
+ 78. frequencyBodyBodyGyroMag-meanFreq 
+ 79. frequencyBodyBodyGyroJerkMag-mean 
+ 80. frequencyBodyBodyGyroJerkMag-std 
+ 81. frequencyBodyBodyGyroJerkMag-meanFreq 
