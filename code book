@@ -15,6 +15,9 @@ subject    activity              timeBodyAcceleration-mean-X  ...
 1          WALKING_DOWNSTAIRS    0.2891883204                 ...
 1          WALKING_UPSTAIRS      0.2554616896                 ...
 .          .                     .                             .
+.          .                     .                             .
+.          .                     .                             .
+
 
 Full list of descriptive variable names for the tidy data set:
  1. subject 
