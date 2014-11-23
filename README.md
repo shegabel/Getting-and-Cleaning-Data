@@ -27,8 +27,8 @@ Files loaded and used by run_analysis R script to create the tidy data:
  5. 'train/subject_test.txt': Test subject.
  6. 'test/X_test.txt': Test set.
  7. 'test/y_test.txt': Test activity labels.
- 
  8. 'activity_labels.txt': Links the class labels with their activity name.
+
 
 How run_analysis R script processes the above files and create the rquried tidy data sets:
 
