@@ -1,8 +1,8 @@
-Data Dictonary:  Tidy data set with the average of each variable for each activity and each subject.
+**Data Dictonary:  Tidy data set with the average of each variable for each activity and each subject.**
 
  Data file name: tidy_train_test_data_average.txt
 
-Variables: 
+*Variables:*
  Column 1. subject: Each row identifies the subject who performed the activity for each window sample labeled with id from 1 to 30.
  Column 2. activity: Each row identifies one of the following activities: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.
  Column 3 to 81 : Average of the measured variables. Each row identifies the average value of one subject per one activity for the measured variable (column name)
@@ -21,7 +21,7 @@ subject    activity                 timeBodyAcceleration-mean-X  ...
 .          .                        .                             .
 
 
-Classes ‘data.table’ and 'data.frame':	180 obs. of  81 variables:
+*Classes ‘data.table’ and 'data.frame':	180 obs. of  81 variables:*
  $ subject                                      : int  1 1 1 1 1 1 2 2 2 2 ...
  $ activity                                     : Factor w/ 6 levels "WALKING","WALKING_UPSTAIRS",..: 5 4 6 1 3 2 5 4 6 1 ...
  $ timeBodyAcceleration-mean-X                  : num  0.279 0.261 0.222 0.277 0.289 ...
