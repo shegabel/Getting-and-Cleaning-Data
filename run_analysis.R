@@ -110,5 +110,5 @@ tidy_train_test_data_average <- tidy_train_test_data_average[order(tidy_train_te
 # Write the tidy_train_test_data_average to a text file called tidy_train_test_data_average.txt.
 write.table(tidy_train_test_data_average, "tidy_train_test_data_average.txt", row.names = FALSE)
 
-# Create document for code book:
+# Check the structure of the data set, also the output to be used with code book.
 str(tidy_train_test_data_average)
